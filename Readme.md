@@ -42,43 +42,46 @@
 > Допустимо произвольное количество символов новой строки в тех местах, где выше обозначен один такой символ
 
 ### Пример таблицы
+~~~ C++
+int main()
+{
+    int first = 0;
+    int second = 4;
+    int result = Func(first, second);
+    return result;
+}
+   
+int Func(int first, int second)
+{
+    int sum = first + second;
+    return sum;
+}
+~~~
 
 ```
-9
-aaa
-bbb
-ccc
-ddd
-eee
-fff
-111 111
-222 222
-iofdsj
+6
+main
+first
+second
+result
+Func
+sum
 
-4
+3
 
-3 -1
-0 1
-6 1
-4 1
+2 -1
+0 2
+4 2
 
 3 0
-1 0
-2 0
-3 0
+1 1
+2 1
+3 1
 
-3 6
-1 0
-2 0
-3 0
-
-6 4
-1 0
-2 0
-3 0
-5 0
-7 0
-8 0
+3 4
+1 1
+2 1
+5 1
 ```
 
 ## Типы узлов
